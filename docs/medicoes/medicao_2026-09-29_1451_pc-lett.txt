@@ -1,0 +1,18 @@
+Bateria VR, medição de "pc lett (sem webxr)" em 29/09/2026, 14:51:37
+Máquina: ANGLE (NVIDIA, NVIDIA GeForce GTX 1050 (0x00001C81) Direct3D11 vs_5_0 ps_5_0, D3D11), tela 1920x1080, densidade 1
+Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+
+Quadro (últimos 120 quadros, teto de 13.9 ms do visor a 72 Hz):
+  custo médio 0.20 ms, pior 0.50 ms, 0 quadro(s) acima do teto
+  intervalo médio 16.66 ms, pior 16.80 ms
+  25 chamadas de desenho e 1800 triângulos
+  0 quadro(s) com salto de tempo cortado (mais de 0,1 s)
+
+Sonda: classe do aparelho somente-janela
+  sem sessão imersiva: Este aparelho não oferece nenhuma sessão imersiva, então a parte da sonda que precisa de sessão não pôde rodar. Isso é uma característica do aparelho.
+
+Linha para planilha (CSV):
+```
+"data","maquina","placa","navegador","tela","densidade","teto_ms","quadros_medidos","custo_medio_ms","pior_custo_ms","quadros_acima_do_teto","intervalo_medio_ms","pior_intervalo_ms","chamadas_de_desenho","triangulos","quadros_com_salto_cortado","classe_do_aparelho","modo_da_sessao","graus_de_liberdade","composicao_do_fundo"
+"2026-09-29T17:51:37.612Z","pc lett (sem webxr)","ANGLE (NVIDIA, NVIDIA GeForce GTX 1050 (0x00001C81) Direct3D11 vs_5_0 ps_5_0, D3D11)","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36","1920x1080","1","13.9","120","0.196","0.500","0","16.665","16.800","25","1800","0","somente-janela","sem sessão","sem sessão","sem sessão"
+```

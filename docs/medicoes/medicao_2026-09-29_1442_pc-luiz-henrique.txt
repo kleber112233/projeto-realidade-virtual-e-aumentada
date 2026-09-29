@@ -1,0 +1,18 @@
+Bateria VR, medição de "maquina123" em 29/09/2026, 14:42:50
+Máquina: Intel(R) HD Graphics, or similar, tela 1920x1080, densidade 1
+Navegador: Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+
+Quadro (últimos 120 quadros, teto de 13.9 ms do visor a 72 Hz):
+  custo médio 1.86 ms, pior 20.00 ms, 4 quadro(s) acima do teto
+  intervalo médio 9.01 ms, pior 25.56 ms
+  25 chamadas de desenho e 1800 triângulos
+  0 quadro(s) com salto de tempo cortado (mais de 0,1 s)
+
+Sonda: classe do aparelho sem-api
+  sem sessão imersiva: Este navegador não tem WebXR. Se a página não estiver em contexto seguro (HTTPS ou endereço local), o problema pode ser o endereço usado.
+
+Linha para planilha (CSV):
+```
+"data","maquina","placa","navegador","tela","densidade","teto_ms","quadros_medidos","custo_medio_ms","pior_custo_ms","quadros_acima_do_teto","intervalo_medio_ms","pior_intervalo_ms","chamadas_de_desenho","triangulos","quadros_com_salto_cortado","classe_do_aparelho","modo_da_sessao","graus_de_liberdade","composicao_do_fundo"
+"2026-09-29T17:42:50.339Z","maquina123","Intel(R) HD Graphics, or similar","Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0","1920x1080","1","13.9","120","1.858","20.000","4","9.014","25.560","25","1800","0","sem-api","sem sessão","sem sessão","sem sessão"
+```

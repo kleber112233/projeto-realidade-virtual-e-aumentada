@@ -1,0 +1,18 @@
+Bateria VR, medição de "PC lab 3" em 29/09/2026, 14:36:34
+Máquina: ANGLE (AMD, AMD Radeon Graphics (radeonsi renoir ACO), OpenGL ES 3.2), tela 1536x864, densidade 1.25
+Navegador: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+
+Quadro (últimos 120 quadros, teto de 13.9 ms do visor a 72 Hz):
+  custo médio 0.40 ms, pior 0.90 ms, 0 quadro(s) acima do teto
+  intervalo médio 16.67 ms, pior 16.80 ms
+  27 chamadas de desenho e 1880 triângulos
+  0 quadro(s) com salto de tempo cortado (mais de 0,1 s)
+
+Sonda: classe do aparelho somente-janela
+  sem sessão imersiva: Este aparelho não oferece nenhuma sessão imersiva, então a parte da sonda que precisa de sessão não pôde rodar. Isso é uma característica do aparelho.
+
+Linha para planilha (CSV):
+```
+"data","maquina","placa","navegador","tela","densidade","teto_ms","quadros_medidos","custo_medio_ms","pior_custo_ms","quadros_acima_do_teto","intervalo_medio_ms","pior_intervalo_ms","chamadas_de_desenho","triangulos","quadros_com_salto_cortado","classe_do_aparelho","modo_da_sessao","graus_de_liberdade","composicao_do_fundo"
+"2026-09-29T17:36:34.106Z","PC lab 3","ANGLE (AMD, AMD Radeon Graphics (radeonsi renoir ACO), OpenGL ES 3.2)","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36","1536x864","1.25","13.9","120","0.398","0.900","0","16.667","16.800","27","1880","0","somente-janela","sem sessão","sem sessão","sem sessão"
+```
