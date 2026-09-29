@@ -218,6 +218,7 @@ Medições feitas até agora, nenhuma na máquina de referência (arquivos em `d
 | PC do Luiz Henrique (Linux, Firefox) | 1,86 ms | 20 ms | 4 de 120 | `medicao_2026-09-29_1442_pc-luiz-henrique.txt` |
 | PC de Lett (GTX 1050, Windows, Chrome) | 0,20 ms | 0,50 ms | 0 de 120 | `medicao_2026-09-29_1451_pc-lett.txt` |
 | Celular do Verga (Android, Chrome) | 1,02 ms | 9,60 ms | 0 de 120 | `medicao_2026-09-29_1513_celular-verga-android.txt` |
+| Celular do Luiz Henrique (Android, Chrome, sem a sonda) | 0,80 ms | 3,60 ms | 0 de 120 | `medicao_2026-09-29_1458_celular-luiz-henrique-android.txt` |
 
 O PC do Kleber tem placa dedicada, então o número dele é o melhor caso. No iPhone os quadros acima do teto ainda precisam ser investigados.
 

@@ -1,0 +1,17 @@
+Bateria VR, medição de "Testecelular" em 29/09/2026, 14:58:35
+Máquina: ANGLE (ARM, Mali-G57 MC2, OpenGL ES 3.2), tela 384x854, densidade 2.8125
+Navegador: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36
+
+Quadro (últimos 120 quadros, teto de 13.9 ms do visor a 72 Hz):
+  custo médio 0.80 ms, pior 3.60 ms, 0 quadro(s) acima do teto
+  intervalo médio 16.64 ms, pior 16.80 ms
+  25 chamadas de desenho e 1800 triângulos
+  0 quadro(s) com salto de tempo cortado (mais de 0,1 s)
+
+Sonda: ainda não rodou nesta página. Clique em Sondar este aparelho antes de copiar para ela entrar aqui.
+
+Linha para planilha (CSV):
+```
+"data","maquina","placa","navegador","tela","densidade","teto_ms","quadros_medidos","custo_medio_ms","pior_custo_ms","quadros_acima_do_teto","intervalo_medio_ms","pior_intervalo_ms","chamadas_de_desenho","triangulos","quadros_com_salto_cortado","classe_do_aparelho","modo_da_sessao","graus_de_liberdade","composicao_do_fundo"
+"2026-09-29T17:58:35.903Z","Testecelular","ANGLE (ARM, Mali-G57 MC2, OpenGL ES 3.2)","Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36","384x854","2.8125","13.9","120","0.803","3.600","0","16.645","16.800","25","1800","0","não sondado","não sondado","não sondado","não sondado"
+```
