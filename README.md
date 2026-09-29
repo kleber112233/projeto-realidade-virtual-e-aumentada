@@ -68,7 +68,7 @@ A extensão Immersive Web Emulator, da Meta, simula um Quest no Chrome. Fixe o �
 | PC do Verga, Linux e Chrome 152 (vídeo integrado AMD Radeon) | janela | VR e AR, porque o aparelho respondeu que não suporta |
 | PC do Luiz Henrique, Linux e Firefox 134 (vídeo Intel, nome genérico informado pelo Firefox) | janela | VR e AR, porque o navegador não tem WebXR |
 | PC de Lett, Windows e Chrome 153 (GTX 1050) | janela | VR e AR, porque o aparelho respondeu que não suporta |
-| Android com Chrome e ARCore | pendente | pendente |
+| Celular do Verga, Android e Chrome | janela, e a sonda abriu uma sessão AR de verdade | VR não foi tentado em sessão, porque quando o aparelho aceita AR a sonda abre só o AR |
 | Máquina do laboratório | pendente | pendente |
 
 Para acrescentar uma linha, abra a página no aparelho, clique em Sondar este aparelho, preencha o nome da máquina e clique em Salvar arquivo na máquina. O arquivo vai para a pasta [docs/medicoes/](docs/medicoes/).
@@ -104,7 +104,7 @@ O teto é de 13,9 ms por quadro, que é o tempo entre duas imagens num visor a 7
 
 O que comparamos com o teto é o custo do nosso trabalho em cada quadro. O intervalo entre imagens também aparece, mas não entra na comparação, porque num monitor de 60 Hz ele nunca fica abaixo de uns 16,7 ms.
 
-As medições ficam em [docs/medicoes/](docs/medicoes/), sempre com a máquina junto. Além do PC e do iPhone do Kleber, a página foi medida em três PCs de outras pessoas. No do Verga, com vídeo integrado AMD, o custo médio foi de 0,40 ms e o pior de 0,90 ms. No do Luiz Henrique, no Firefox, foi de 1,86 ms e 20 ms, com 4 de 120 quadros acima do teto. No de Lett, com GTX 1050, foi de 0,20 ms e 0,50 ms. A medição na máquina mais simples do laboratório ainda está pendente.
+As medições ficam em [docs/medicoes/](docs/medicoes/), sempre com a máquina junto. Além do PC e do iPhone do Kleber, a página foi medida em três PCs e num celular Android de outras pessoas. No do Verga, com vídeo integrado AMD, o custo médio foi de 0,40 ms e o pior de 0,90 ms. No do Luiz Henrique, no Firefox, foi de 1,86 ms e 20 ms, com 4 de 120 quadros acima do teto. No de Lett, com GTX 1050, foi de 0,20 ms e 0,50 ms. No celular Android do Verga, foi de 1,02 ms e 9,60 ms, sem nenhum quadro acima do teto. A medição na máquina mais simples do laboratório ainda está pendente.
 
 ## 7. O que ainda não funciona
 
@@ -112,7 +112,8 @@ As medições ficam em [docs/medicoes/](docs/medicoes/), sempre com a máquina j
 - Ainda não dá para pegar, encaixar nem tocar as peças. Isso fica para os próximos módulos. Hoje, fixar só troca o pai da peça, ela não é levada até a plataforma.
 - O custo medido é o tempo de processador. O tempo da placa de vídeo não entra nesse número.
 - A sonda pode confundir um visor de seis graus de liberdade que perdeu o rastreamento com um visor de três graus. Por isso o relatório mostra as contagens de poses.
-- Ainda não testamos em Android nem na máquina do laboratório.
+- Ainda não testamos na máquina do laboratório nem num visor real.
+- No celular Android, a sessão AR da sonda abriu, mas 77 dos 90 quadros observados vieram sem pose. Ainda não investigamos a causa.
 - A cena anda igual em máquinas diferentes desde que elas passem de 10 quadros por segundo. Abaixo disso o relógio corta cada intervalo em 0,1 s e a cena fica mais lenta que o tempo real (a medição mostra quantos quadros foram cortados).
 
 ## 8. Pastas

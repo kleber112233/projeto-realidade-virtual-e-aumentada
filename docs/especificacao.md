@@ -184,7 +184,7 @@ Os três regimes, aspecto por aspecto:
 | O que a cena faz de diferente | modo de edição e conferência, sem depender de equipamento | lê a velocidade do controle e liga o áudio posicional | usa o rastreamento de superfície para prender a plataforma no chão |
 | O que não existe neste regime | áudio posicional (usa estéreo simples), leitura de velocidade da baqueta | mira por mouse, visão das próprias mãos reais | baqueta física (o toque substitui o golpe), vibração |
 
-No Módulo 03 só o regime de janela desenha a cena. Os regimes de visor e celular estão declarados e são consultados pela sonda de capacidades. No emulador de visor, a sonda confirmou a composição alpha-blend declarada para o modo AR.
+No Módulo 03 só o regime de janela desenha a cena. Os regimes de visor e celular estão declarados e são consultados pela sonda de capacidades. No emulador de visor, a sonda confirmou a composição alpha-blend declarada para o modo AR. Num celular Android de verdade (o do Verga), a sessão AR da sonda também abriu com alpha-blend, com local-floor, hit-test, anchors e plane-detection concedidos, e bounded-floor e hand-tracking não concedidos.
 
 Por que o modo AR usa local-floor, e não um espaço "superfície": a WebXR não tem um espaço de referência de superfície. A origem fica no chão, e a superfície chega por teste de impacto e âncora, em cima dessa origem.
 
@@ -214,6 +214,10 @@ Medições feitas até agora, nenhuma na máquina de referência (arquivos em `d
 |---|---|---|---|---|
 | PC do Kleber (RTX 3080 Ti, Windows, Chrome 153) | 0,10 ms | 0,30 ms | 0 de 120 | `medicao_2026-09-29_1125_pc-kleber-sem-emulador.txt` |
 | iPhone do Kleber (Safari) | 1,23 a 1,66 ms | 18 ms | 8 a 9 de 120 | `medicao_2026-09-29_0958_iphone-kleber-1.txt` e `medicao_2026-09-29_0959_iphone-kleber-2.txt` |
+| PC do Verga (vídeo integrado AMD, Linux, Chrome) | 0,40 ms | 0,90 ms | 0 de 120 | `medicao_2026-09-29_1436_pc-verga.txt` |
+| PC do Luiz Henrique (Linux, Firefox) | 1,86 ms | 20 ms | 4 de 120 | `medicao_2026-09-29_1442_pc-luiz-henrique.txt` |
+| PC de Lett (GTX 1050, Windows, Chrome) | 0,20 ms | 0,50 ms | 0 de 120 | `medicao_2026-09-29_1451_pc-lett.txt` |
+| Celular do Verga (Android, Chrome) | 1,02 ms | 9,60 ms | 0 de 120 | `medicao_2026-09-29_1513_celular-verga-android.txt` |
 
 O PC do Kleber tem placa dedicada, então o número dele é o melhor caso. No iPhone os quadros acima do teto ainda precisam ser investigados.
 
@@ -294,7 +298,7 @@ Riscos:
 - As máquinas do laboratório têm vídeo integrado e podem não aguentar 27 objetos com sombras. Mitigação: o teto já está declarado e a ordem de degradação da seção 10 vale desde já.
 - O rastreamento pode falhar em salas pequenas ou mal iluminadas. Mitigação: testar cedo, com fita no chão ajudando a câmera, e acompanhar a contagem de quadros sem pose da sonda.
 - Há menos visores do que grupos. Mitigação: o regime de janela funciona desde o Bloco 1, o emulador de visor ajuda no desenvolvimento, e os horários de teste com visor vão ser reservados com antecedência.
-- Nenhum integrante tem Android com ARCore confirmado. Mitigação: conseguir um aparelho emprestado ou usar o do laboratório para testar o modo celular.
+- Só um integrante tem Android com o modo AR confirmado (o celular do Verga). Mitigação: conseguir um segundo aparelho emprestado ou usar o do laboratório para testar o modo celular.
 
 Decisões em aberto:
 
@@ -311,6 +315,7 @@ Aparelhos testados até o fim do Módulo 03 (a tabela completa está no README):
 | PC com Windows e Chrome | janela | visor e celular (o aparelho respondeu que não suporta) |
 | iPhone com Safari | janela | visor e celular (o navegador não tem WebXR) |
 | PC com o emulador de visor (simulação, não conta como aparelho) | janela, e a sonda abriu sessão AR | nenhum, porque o emulador libera tudo |
+| Celular Android com Chrome | janela, e a sonda abriu sessão AR | visor não foi tentado em sessão (a sonda abre só o AR quando ele existe) |
 
 ### Registro de mudanças desde o Módulo 01
 
