@@ -1,0 +1,17 @@
+Bateria VR, medição de "Celular kleber" em 29/09/2026, 09:58:49
+Máquina: Apple GPU, tela 414x896, densidade 3
+Navegador: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1
+
+Quadro (últimos 120 quadros, teto de 13.9 ms do visor a 72 Hz):
+  custo médio 1.66 ms, pior 18.00 ms, 9 quadro(s) acima do teto
+  intervalo médio 20.44 ms, pior 39.00 ms
+  25 chamadas de desenho e 1800 triângulos
+  0 quadro(s) com salto de tempo cortado (mais de 0,1 s)
+
+Sonda: ainda não rodou nesta página. Clique em Sondar este aparelho antes de copiar para ela entrar aqui.
+
+Linha para planilha (CSV):
+```
+"data","maquina","placa","navegador","tela","densidade","teto_ms","quadros_medidos","custo_medio_ms","pior_custo_ms","quadros_acima_do_teto","intervalo_medio_ms","pior_intervalo_ms","chamadas_de_desenho","triangulos","quadros_com_salto_cortado","classe_do_aparelho","modo_da_sessao","graus_de_liberdade","composicao_do_fundo"
+"2026-09-29T12:58:49.959Z","Celular kleber","Apple GPU","Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1","414x896","3","13.9","120","1.658","18.000","9","20.442","39.000","25","1800","0","não sondado","não sondado","não sondado","não sondado"
+```

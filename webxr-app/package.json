@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "scripts": {
     "dev": "vite --host",
     "build": "tsc --noEmit && vite build",
@@ -11,6 +14,7 @@
   },
   "devDependencies": {
     "@types/three": "^0.185.4",
+    "@types/webxr": "^0.5.24",
     "@vitejs/plugin-basic-ssl": "^2.3.0",
     "typescript": "~6.0.2",
     "vite": "^8.2.0"

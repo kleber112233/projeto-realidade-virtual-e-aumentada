@@ -1,0 +1,27 @@
+Bateria VR, medição de "pc teste 2 (kleber)" em 28/09/2026, 21:10:18
+Máquina: ANGLE (NVIDIA, NVIDIA GeForce RTX 3080 Ti (0x00002208) Direct3D11 vs_5_0 ps_5_0, D3D11), tela 1920x1080, densidade 1
+Navegador: Mozilla/5.0 (X11; Linux x86_64; Quest Pro) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36
+
+Quadro (últimos 120 quadros, teto de 13.9 ms do visor a 72 Hz):
+  custo médio 0.11 ms, pior 0.40 ms, 0 quadro(s) acima do teto
+  intervalo médio 4.17 ms, pior 4.30 ms
+  25 chamadas de desenho e 1800 triângulos
+  0 quadro(s) com salto de tempo cortado (mais de 0,1 s)
+
+Sonda: classe do aparelho visor-com-posicao
+  sessão: immersive-ar, graus de liberdade: seis (90 poses, 0 emuladas)
+  forma de interação: world-space
+  observação: completa (90 quadros)
+  composição do fundo: alpha-blend
+  recursos concedidos: local-floor, bounded-floor, hit-test, anchors, plane-detection, hand-tracking
+  recursos não concedidos (motivo não informado): nenhum
+  sem resposta: nenhum
+  espaços de referência: bounded-floor, local-floor, local, viewer
+  fontes de entrada: left/tracked-pointer, right/tracked-pointer
+  estabilidade: 90 quadros, 0 sem pose
+
+Linha para planilha (CSV):
+```
+"data","maquina","placa","navegador","tela","densidade","teto_ms","quadros_medidos","custo_medio_ms","pior_custo_ms","quadros_acima_do_teto","intervalo_medio_ms","pior_intervalo_ms","chamadas_de_desenho","triangulos","quadros_com_salto_cortado","classe_do_aparelho","modo_da_sessao","graus_de_liberdade","composicao_do_fundo"
+"2026-09-29T00:10:18.591Z","pc teste 2 (kleber)","ANGLE (NVIDIA, NVIDIA GeForce RTX 3080 Ti (0x00002208) Direct3D11 vs_5_0 ps_5_0, D3D11)","Mozilla/5.0 (X11; Linux x86_64; Quest Pro) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36","1920x1080","1","13.9","120","0.108","0.400","0","4.167","4.300","25","1800","0","visor-com-posicao","immersive-ar","seis","alpha-blend"
+```

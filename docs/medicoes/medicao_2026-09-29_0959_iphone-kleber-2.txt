@@ -1,0 +1,18 @@
+Bateria VR, medição de "Celular kleber" em 29/09/2026, 09:59:16
+Máquina: Apple GPU, tela 414x896, densidade 3
+Navegador: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1
+
+Quadro (últimos 120 quadros, teto de 13.9 ms do visor a 72 Hz):
+  custo médio 1.23 ms, pior 18.00 ms, 8 quadro(s) acima do teto
+  intervalo médio 17.38 ms, pior 36.00 ms
+  27 chamadas de desenho e 1880 triângulos
+  0 quadro(s) com salto de tempo cortado (mais de 0,1 s)
+
+Sonda: classe do aparelho sem-api
+  sem sessão imersiva: Este navegador não tem WebXR. Se a página não estiver em contexto seguro (HTTPS ou endereço local), o problema pode ser o endereço usado.
+
+Linha para planilha (CSV):
+```
+"data","maquina","placa","navegador","tela","densidade","teto_ms","quadros_medidos","custo_medio_ms","pior_custo_ms","quadros_acima_do_teto","intervalo_medio_ms","pior_intervalo_ms","chamadas_de_desenho","triangulos","quadros_com_salto_cortado","classe_do_aparelho","modo_da_sessao","graus_de_liberdade","composicao_do_fundo"
+"2026-09-29T12:59:16.431Z","Celular kleber","Apple GPU","Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1","414x896","3","13.9","120","1.225","18.000","8","17.375","36.000","27","1880","0","sem-api","sem sessão","sem sessão","sem sessão"
+```
